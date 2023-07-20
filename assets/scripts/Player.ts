@@ -23,7 +23,7 @@ export class Player extends Component {
 
     setJumpAction() {
         v2(0, this.jumpHeight);
-        var jumpUp = moveBy(this.jumpDuration, v2(0, this.jumpHeight)).easing(easeCubicActionOut());
+        // var jumpUp = moveBy(this.jumpDuration, v2(0, this.jumpHeight)).easing(easeCubicActionOut());
     }
 
 }
